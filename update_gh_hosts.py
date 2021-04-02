@@ -19,7 +19,7 @@ if not (os.access(hosts_path, os.W_OK) and os.access(hosts_path, os.R_OK)):
 
 print("Updating GitHub hosts...")
 
-gh_hosts_url = "https://cdn.jsdelivr.net/gh/521xueweihan/GitHub520@main/hosts"
+gh_hosts_url = "https://gits.pages.dev/hosts"
 start_line = "# GitHub520 Host Start\n"
 end_line = "# GitHub520 Host End\n"
 
